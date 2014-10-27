@@ -2,7 +2,7 @@
 
 > Gulp tasks for building the demos in OpenMusic
 
-[![Install with NPM](https://nodei.co/npm/demo-gulp-tasks.png?downloads=true&stars=true)](https://nodei.co/npm/demo-gulp-tasks/)
+[![Install with NPM](https://nodei.co/npm/openmusic-demo-gulp-tasks.png?downloads=true&stars=true)](https://nodei.co/npm/openmusic-demo-gulp-tasks/)
 
 This is probably super specific to this use case, but hey.
 
