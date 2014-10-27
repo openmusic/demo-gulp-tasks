@@ -19,9 +19,10 @@ require('demo-gulp-tasks')(gulp);
 
 ## Available tasks
 
-* build
-* build-js
+* build (runs build-data, build-html and build-js)
+* build-data
 * build-html
+* build-js
 * watch
 * default (build and watch)
 
