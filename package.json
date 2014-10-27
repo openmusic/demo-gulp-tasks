@@ -1,0 +1,20 @@
+{
+  "name": "openmusic-demo-gulp-tasks",
+  "version": "1.0.0",
+  "description": "Tasks for building the OpenMusic demos, using Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openmusic/demo-gulp-tasks"
+  },
+  "author": "sole",
+  "license": "Apache 2",
+  "dependencies": {
+    "gulp-browserify": "^0.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1"
+  }
+}
