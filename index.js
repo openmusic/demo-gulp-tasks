@@ -14,7 +14,7 @@ module.exports = function(gulp) {
 		return gulp.src('./demo/main.js')
 			.pipe(browserify({
 			}))
-			.pipe(uglify())
+			//.pipe(uglify())
 			.pipe(rename('bundle.js'))
 			.pipe(gulp.dest(buildDir));
 	});
