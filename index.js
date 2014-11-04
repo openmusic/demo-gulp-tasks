@@ -30,7 +30,7 @@ module.exports = function(gulp) {
 	});
 
 	gulp.task('watch', function() {
-		gulp.watch(['demo/**/*', 'index.js'], ['build']);
+		gulp.watch(['demo/**/*', 'index.js', 'src/**/*'], ['build']);
 	});
 
 	gulp.task('default', ['build', 'watch']);
