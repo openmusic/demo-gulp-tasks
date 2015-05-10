@@ -8,7 +8,7 @@ var demoDir = './demo';
 
 module.exports = function(gulp) {
 
-	gulp.task('build', ['build-js', 'build-html', 'build-data']);
+	gulp.task('build', ['build-js', 'build-html', 'build-css', 'build-data']);
 
 	gulp.task('build-js', function() {
 
@@ -46,15 +46,24 @@ module.exports = function(gulp) {
 			.pipe(gulp.dest(buildDir));
 	});
 
+
+	gulp.task('build-css', function() {
+		return gulp.src('demo/style.css')
+			.pipe(gulp.dest(buildDir));
+	});
+
+
 	gulp.task('build-data', function() {
 		return gulp.src(path.join(demoDir, 'data', '**'))
 			.pipe(gulp.dest(path.join(buildDir, 'data')));
 	});
 
+
 	gulp.task('watch', function() {
 		gulp.watch(['demo/**/*', 'index.js', 'src/**/*'], ['build']);
 	});
 
+	
 	gulp.task('default', ['build', 'watch']);
 
 };

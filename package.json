@@ -1,6 +1,6 @@
 {
   "name": "openmusic-demo-gulp-tasks",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Tasks for building the OpenMusic demos, using Gulp",
   "main": "index.js",
   "scripts": {
