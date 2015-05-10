@@ -23,7 +23,6 @@ module.exports = function(gulp) {
 			if(hasTransforms) {
 				transforms = packageJSON.browserify.transform;
 			}
-			console.log(packageJSON);
 		} catch(e) {
 			console.info('No browserify transforms found');
 		}
